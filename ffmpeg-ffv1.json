@@ -11,5 +11,6 @@
         "ffdec" : "ff_dec-ffv1.c"
     },
     "Format": ["FFV1"],
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_1"]
 }
