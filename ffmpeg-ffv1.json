@@ -12,5 +12,24 @@
     },
     "Format": ["FFV1"],
     "licence_required":false,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "runtime": {
+        "ffdec": {
+            "outputs": [
+                {
+                    "property": "GF_PROP_PID_PIXFMT",
+                    "format": [
+                        "GF_PIXEL_RGB",
+                        "GF_PIXEL_YUV",
+                        "GF_PIXEL_RGBA",
+                        "GF_PIXEL_YUV_10",
+                        "GF_PIXEL_YUV422",
+                        "GF_PIXEL_YUV422_10",
+                        "GF_PIXEL_YUV444",
+                        "GF_PIXEL_YUV444_10"
+                    ]
+                }
+            ]
+        }
+    }
 }
