@@ -1,5 +1,6 @@
 {
     "name": "ffmpeg-ffv1",
+    "version": "1.0.1",
     "description": "FFV1 lossless video decoder",
     "filters":["ffdec"],
     "help": "This is a reduced version of ffmpeg carrying the FFV1 decoder only. FFV1 is a lossless intra-frame video codec used for archiving; its reference implementation is ffmpeg itself.",
