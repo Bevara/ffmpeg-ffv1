@@ -2,17 +2,27 @@
     "name": "ffmpeg-ffv1",
     "version": "1.0.2",
     "description": "FFV1 lossless video decoder",
-    "filters":["ffdec"],
+    "filters": [
+        "ffdec"
+    ],
     "help": "This is a reduced version of ffmpeg carrying the FFV1 decoder only. FFV1 is a lossless intra-frame video codec used for archiving; its reference implementation is ffmpeg itself.",
     "support": [
         "video"
     ],
-    "sources":"https://bevara.ddns.net/sources/ffmpeg-ffv1.accessor",
-    "filter_source":{
-        "ffdec" : "ff_dec-ffv1.c"
+    "sources": "https://bevara.ddns.net/sources/ffmpeg-ffv1.accessor",
+    "filter_source": {
+        "ffdec": "ff_dec-ffv1.c"
     },
-    "Format": ["FFV1"],
-    "using": ["mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "Format": [
+        "FFV1"
+    ],
+    "using": [
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "runtime": {
         "ffdec": {
             "outputs": [
